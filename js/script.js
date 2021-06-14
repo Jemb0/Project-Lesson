@@ -56,3 +56,27 @@ switch (num) {
         console.log('не в этот раз');
         break;
 }
+
+let numb = 123;
+
+while (numb < 130) {
+    console.log(numb);
+    numb++;
+}
+
+do {
+    console.log(numb);
+    numb++;
+}
+while (numb < 130);
+
+for (let i = 1; i < 12; i++) {
+    console.log(numb);
+    numb++;
+}
+
+for (let i = 1; i < 10; i++;) {
+    if (i === 8)  {
+        break;
+    }
+}
